@@ -22,6 +22,51 @@
 		<div id="content">
 			<h3>Kontakta mig</h3>
 			
+		<form method="post" action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" enctype="application/x-www-form-urlencoded">
+		<fieldset>
+			<legend>Person uppgifter</legend>
+			<ul>
+			<li>
+			<label for="namnruta">Namn</label>
+				<input placeholder="Ditt namn" type="text" name="namnruta" id="namnruta" value=""/></li>
+		
+			<li>
+			<label for="mail">E-post</label>
+				<input placeholder="Din mail adress" required type="text" name="mail" id="mail" value=""/></li>
+
+		
+			<li><input type="radio" name="group1" value="" checked="checked" />Lnu student</li>
+			<li><input type="radio" name="group1" value="" />Annan student</li>
+			<li><input type="radio" name="group1" value="" />Ej student</li>
+			</ul>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Medelande</legend>
+			<ul>
+			<li><select name="text" id="meddrop">
+			<option value="fraga" selected="selected">Fråga</option>
+			<option value="kommentar">Kommentar</option>
+			<option value="text">Text</option>
+			</select></li>
+			
+			<li><label for="rubrik">Ämne</label>
+				<input placeholder="Din rubrik" type="text" name="rubrik" id="rubrik" value=""/></li>
+			<li><textarea placeholder="Ditt medelande" required rows="5" cols="40" id="medelanderuta"></textarea></li>
+		</fieldset>
+		<li><input type="submit" value="Skicka" /></li>
+		
+		</ul>
+		</fieldset>
+		
+		</form>
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
