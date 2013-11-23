@@ -1,0 +1,59 @@
+/* body*/
+body {background-image: url("pics/leomo.jpg");
+
+}
+
+/* Layout*/
+#header {
+	border: 2px solid blue;
+	padding: 5px;
+	margin-top: 5px;
+	
+}
+
+#navigation {
+	border: 2px solid green;
+	padding: 5px;
+	width: 180px;
+	float: left;
+}
+
+#content {
+	border: 2px solid red;
+	padding: 5px;
+	max-width: 567px;
+	float: left;
+	
+}
+
+#container {
+	background-color: pink;
+	overflow: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+#sidebar {
+	border: 2px solid yellow;
+	width: 180px;
+	float: right;
+	
+}
+
+#footer {
+	background-color: black;
+	margin-bottom: 5px;
+	width: 960px;
+	float: left;
+}
+
+
+
+/* Typografi*/
+p { color: red;
+	}
+	
+h1 { color: green;
+	}
+	
