@@ -5,7 +5,8 @@ body {background-image: url("pics/leomo.jpg");
 
 /* Layout*/
 #header {
-	border: 2px solid blue;
+	background-color: #25D1D8;
+	
 	padding: 5px;
 	margin-top: 5px;
 	
@@ -16,10 +17,14 @@ body {background-image: url("pics/leomo.jpg");
 	padding: 5px;
 	width: 180px;
 	float: left;
+	
+	
 }
 
+
+
 #content {
-	border: 2px solid red;
+	
 	padding: 5px;
 	max-width: 567px;
 	float: left;
@@ -27,7 +32,8 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #container {
-	background-color: pink;
+	background-color: rgba(253, 254, 255, 0.9);
+	
 	overflow: auto;
 	max-width: 960px;
 	margin: 0 auto;
@@ -42,7 +48,7 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #footer {
-	background-color: black;
+	background-color: #1CE57B;
 	margin-bottom: 5px;
 	width: 960px;
 	float: left;
