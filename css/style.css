@@ -6,37 +6,66 @@ body {background-image: url("pics/leomo.jpg");
 /* Layout*/
 #header {
 	background-color: #25D1D8;
-	
 	padding: 5px;
-	margin-top: 5px;
+	
+	
 	
 }
+
 
 #navigation {
-	border: 2px solid green;
-	padding: 5px;
-	width: 180px;
+	background-color: #92D5EF;
+	width: 960px;
 	float: left;
 	
+}
+#navigation ul {
+	display: block;
+	border: 5px solid, #FFF;
+	margin: 0 1px 0 0;
+
+}
+
+#navigation li {
+	background-color: #25D1D8;
+	list-style-type: none;
+	padding: 15px;
+	float: left;
 	
 }
 
+#navigation li a {
+	background-image: url("pics/knapp1.png");
+	padding: 15px;
+	
+}
+
+#navigation li a:hover {
+	background-image: url("pics/knapp2.png");
+	padding: 15px;
+	
+}
+
+#navigation li.active {
+	background-image: url("pics/knapp3.png");
+	padding: 15px;
+}
 
 
 #content {
 	
 	padding: 5px;
-	max-width: 567px;
+	max-width: 570px;
 	float: left;
 	
 }
 
 #container {
 	background-color: rgba(253, 254, 255, 0.9);
-	
 	overflow: auto;
 	max-width: 960px;
 	margin: 0 auto;
+	border-radius: 10px;
 	
 }
 
@@ -44,14 +73,16 @@ body {background-image: url("pics/leomo.jpg");
 	border: 2px solid yellow;
 	width: 180px;
 	float: right;
+	border-radius: 8px;
 	
 }
 
 #footer {
 	background-color: #1CE57B;
-	margin-bottom: 5px;
 	width: 960px;
 	float: left;
+	
+	
 }
 
 
