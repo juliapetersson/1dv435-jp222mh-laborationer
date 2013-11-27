@@ -61,7 +61,7 @@ body {background-image: url("pics/leomo.jpg");
 #content {
 	background-color: #FFF;
 	padding: 5px;
-	max-width: 570px;
+	max-width: 600px;
 	float: left;
 	margin-left: 20px;
 }
@@ -76,6 +76,14 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
+#text {
+	border: 2px solid #CA26D6;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 5px;
+	
+}
+
 /* högersida*/
 #sidebar {
 	border: 2px solid #CA26D6;
@@ -84,6 +92,7 @@ body {background-image: url("pics/leomo.jpg");
 	border-radius: 8px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-right: 20px;
 	
 	
 }
