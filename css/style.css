@@ -13,6 +13,8 @@ body {background-image: url("pics/leomo.jpg");
 
 /* Navigation*/
 #navigation {
+	background-image: url("pics/miniskull.png");
+	background-repeat: no-repeat;
 	background-color: #92D5EF;
 	font-family: franklin gothic;
 	width: 960px;
@@ -57,7 +59,7 @@ body {background-image: url("pics/leomo.jpg");
 
 /* Innehåll*/
 #content {
-	
+	background-color: #FFF;
 	padding: 5px;
 	max-width: 570px;
 	float: left;
