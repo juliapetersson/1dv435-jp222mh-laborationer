@@ -7,14 +7,14 @@ body {background-image: url("pics/leomo.jpg");
 #header {
 	background-color: #25D1D8;
 	padding: 5px;
-	
-	
+	font-family: tahoma, verdana;
 	
 }
 
-
+/* Navigation*/
 #navigation {
 	background-color: #92D5EF;
+	font-family: franklin gothic;
 	width: 960px;
 	float: left;
 	
@@ -27,7 +27,7 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #navigation li {
-	background-color: #25D1D8;
+	background-color: #92D5EF;
 	list-style-type: none;
 	padding: 15px;
 	float: left;
@@ -35,7 +35,7 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #navigation li a {
-	background-image: url("pics/knapp1.png");
+	background-color: #92D5EF;
 	padding: 15px;
 	
 }
@@ -46,22 +46,27 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
-#navigation li.active {
+#navigation li a.active {
 	background-image: url("pics/knapp3.png");
 	padding: 15px;
 }
 
+#li {
+	cursor: pointer;
+}
 
+/* Innehåll*/
 #content {
 	
 	padding: 5px;
 	max-width: 570px;
 	float: left;
-	
+	margin-left: 20px;
 }
 
+
 #container {
-	background-color: rgba(253, 254, 255, 0.9);
+	background-color: #FFF;
 	overflow: auto;
 	max-width: 960px;
 	margin: 0 auto;
@@ -69,28 +74,94 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
+/* högersida*/
 #sidebar {
-	border: 2px solid yellow;
-	width: 180px;
+	border: 2px solid #CA26D6;
+	width: 230px;
 	float: right;
 	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
 	
 }
 
+#sidebar li {
+	list-style-type: none;
+	
+}
+
+/* lägnstned*/
 #footer {
 	background-color: #1CE57B;
 	width: 960px;
 	float: left;
-	
-	
+
+}
+
+#footer li {
+	list-style-type: none;
+}
+
+#fotruta1 {
+	width: 450px;
+	float: left;
+	font-size: 12px;
+}
+
+#fotruta1 li{
+	float: left;
+	margin-left: 20px;
+}
+
+#fotruta2 {
+	width: 450px;
+	float: right;
+}
+
+#fotruta2 li{
+	float: right;
+	margin-right: 20px;
 }
 
 
-
 /* Typografi*/
-p { color: red;
+
+#header h1 {
+	font-family: chiller, tahoma, verdana;
+	color: #CA26D6;
+	margin-left: 20px;
+}
+
+#header p {
+	font-family: helvetica, arial;
+	color: #39125D;
+	margin-left: 20px;
+}
+
+p { 
+	font-family: helvetica;
+	color: #39125D;
+}
+	
+h2 { color: #6AE5AF;
+
 	}
 	
-h1 { color: green;
-	}
+#content li {
+	font-family: georgia;
+}
+
+#content dt {
+	font-family: georgia;
+}
 	
+#content h3 {
+	font-family: verdana;
+	color: #1DB0EF;
+}
+
+#content h4 {
+	font-family: verdana;
+	color: #CA26D6;
+}
