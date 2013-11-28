@@ -1,24 +1,24 @@
 /*
 Färger:
-#25D1D8
-#92D5EF
-#FFF
-#CA26D6
-#1CE57B
+#25D1D8	head
+#92D5EF	meny
+#FFF	vitt
+#CA26D6	ramar
+#1CE57B	foot
 /text
-#CA26D6
-#39125D
-#1DB0EF
-#6AE5AF
+#CA26D6	h4
+#39125D	p
+#1DB0EF	h3
+#6AE5AF	h2
 
 Typografi:
-tahoma
-verdana
-franklin gothic
-chiller
-georgia
-helvetica
-arial
+tahoma				head+ extra
+verdana				h4/h3
+franklin gothic		Meny
+chiller				head-rubrik
+georgia				li/dd
+helvetica			p
+arial				extra
 
 Bilder:
 url("pics/leomo.jpg")
@@ -119,11 +119,29 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
-#video{
+
+.text p {
+	margin-left: 2px;
+	
+}
+
+.left {
+	float: left;
+	border: 3px solid #1CE57B;
+	
+}
+
+.right {
 	background-color: #CA26D6;
 	width: 300px;
 	height: 169px;
 	float: right;
+}
+
+/*tabell*/
+.thead {
+	background-color: #25D1D8;
+	color: #FFF;
 }
 
 /*presentationsrutor*/
