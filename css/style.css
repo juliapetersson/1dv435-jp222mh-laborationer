@@ -76,13 +76,38 @@ body {background-image: url("pics/leomo.jpg");
 	border-radius: 10px;
 	
 }
-
+/*blogginläggrutor*/
 #text {
 	background-image: url("pics/eye.png");
 	background-repeat: no-repeat;
 	border: 2px solid #CA26D6;
 	border-radius: 8px;
 	margin-top: 10px;
+	padding: 5px;
+	
+}
+/*presentationsrutor*/
+#now {
+	border: 2px solid #CA26D6;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 5px;
+	
+}
+
+#past {
+	border: 2px solid #CA26D6;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 5px;
+	
+}
+
+#future {
+	border: 2px solid #CA26D6;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 5px;
 	
 }
