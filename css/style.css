@@ -77,6 +77,8 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #text {
+	background-image: url("pics/eye.png");
+	background-repeat: no-repeat;
 	border: 2px solid #CA26D6;
 	border-radius: 8px;
 	margin-top: 10px;
@@ -149,6 +151,15 @@ body {background-image: url("pics/leomo.jpg");
 	color: #39125D;
 	margin-left: 20px;
 }
+
+#text h3{
+	margin-left: 70px;
+}
+
+#text p {
+	margin-top: 50px;
+}
+
 
 p { 
 	font-family: helvetica;
