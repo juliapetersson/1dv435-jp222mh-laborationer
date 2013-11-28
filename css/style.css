@@ -109,7 +109,7 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 /*blogginläggrutor*/
-#text {
+.text {
 	background-image: url("pics/eye.png");
 	background-repeat: no-repeat;
 	border: 2px solid #CA26D6;
@@ -217,11 +217,11 @@ body {background-image: url("pics/leomo.jpg");
 	margin-left: 20px;
 }
 /*blogginlägg*/
-#text h3{
+.text h3{
 	margin-left: 70px;
 }
 
-#text p {
+.text p {
 	margin-top: 50px;
 }
 
