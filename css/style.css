@@ -5,6 +5,9 @@ body {background-image: url("pics/leomo.jpg");
 
 /* Layout*/
 #header {
+	background-image: url("pics/joker.png");
+	background-repeat: no-repeat;
+	background-position: right;
 	background-color: #25D1D8;
 	padding: 5px;
 	font-family: tahoma, verdana;
@@ -13,8 +16,6 @@ body {background-image: url("pics/leomo.jpg");
 
 /* Navigation*/
 #navigation {
-	background-image: url("pics/miniskull.png");
-	background-repeat: no-repeat;
 	background-color: #92D5EF;
 	font-family: franklin gothic;
 	width: 960px;
