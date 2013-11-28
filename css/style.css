@@ -1,3 +1,35 @@
+/*
+Färger:
+#25D1D8
+#92D5EF
+#FFF
+#CA26D6
+#1CE57B
+/text
+#CA26D6
+#39125D
+#1DB0EF
+#6AE5AF
+
+Typografi:
+tahoma
+verdana
+franklin gothic
+chiller
+georgia
+helvetica
+arial
+
+Bilder:
+url("pics/leomo.jpg")
+url("pics/joker.png")
+url("pics/knapp2.png")
+url("pics/knapp3.png")
+url("pics/eye.png")
+*/
+
+
+
 /* body*/
 body {background-image: url("pics/leomo.jpg");
 
@@ -165,7 +197,7 @@ body {background-image: url("pics/leomo.jpg");
 
 
 /* Typografi*/
-
+/*header*/
 #header h1 {
 	font-family: chiller, tahoma, verdana;
 	color: #CA26D6;
@@ -177,7 +209,7 @@ body {background-image: url("pics/leomo.jpg");
 	color: #39125D;
 	margin-left: 20px;
 }
-
+/*blogginlägg*/
 #text h3{
 	margin-left: 70px;
 }
@@ -186,7 +218,7 @@ body {background-image: url("pics/leomo.jpg");
 	margin-top: 50px;
 }
 
-
+/*lösa*/
 p { 
 	font-family: helvetica;
 	color: #39125D;
@@ -196,6 +228,7 @@ h2 { color: #6AE5AF;
 
 	}
 	
+/*content*/
 #content li {
 	font-family: georgia;
 }
