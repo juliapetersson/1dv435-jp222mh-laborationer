@@ -120,10 +120,11 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #video{
-	border: 2px solid #CA26D6;
-	border-radius: 8px;
-	
+	background-color: #CA26D6;
+	width: 300px;
+	float: right;
 }
+
 /*presentationsrutor*/
 #now {
 	border: 2px solid #CA26D6;
