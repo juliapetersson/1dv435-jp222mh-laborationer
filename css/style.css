@@ -35,7 +35,7 @@ body {background-image: url("pics/leomo.jpg");
 
 }
 
-/* Layout*/
+/* header*/
 #header {
 	background-image: url("pics/joker.png");
 	background-repeat: no-repeat;
@@ -44,6 +44,18 @@ body {background-image: url("pics/leomo.jpg");
 	padding: 5px;
 	font-family: tahoma, verdana;
 	
+}
+#header h1 {
+	font-family: chiller, tahoma, verdana;
+	color: #CA26D6;
+	margin-left: 20px;
+	font-size: 36px;
+}
+
+#header p {
+	font-family: helvetica, arial;
+	color: #39125D;
+	margin-left: 20px;
 }
 
 /* Navigation*/
@@ -99,6 +111,19 @@ body {background-image: url("pics/leomo.jpg");
 	margin-left: 20px;
 }
 
+#content li {
+	font-family: georgia;
+}
+
+#content dt {
+	font-family: georgia;
+}
+	
+#content h3 {
+	font-family: verdana;
+	color: #1DB0EF;
+}
+
 
 #container {
 	background-color: #FFF;
@@ -125,47 +150,70 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
+.text h3{
+	margin-left: 70px;
+}
+
+.text p {
+	margin-top: 50px;
+}
+
 .left {
 	float: left;
-	border: 3px solid #1CE57B;
+	border: 4px solid #FFF;
 	
 }
 
 .right {
-	background-color: #CA26D6;
+	border: 3px ridge #1CE57B;
 	width: 300px;
 	height: 169px;
 	float: right;
 }
 
 /*tabell*/
+
+td {
+	border-width: 1px;
+	border-color: #25D1D8;
+	border-style: dotted;
+	
+}
+
+table {
+	border: 2px solid;
+	border-color: #CA26D6;
+	border-style: outset;
+	border-radius: 8px;
+	width: 400px;
+	padding: 3px;
+}
+
 .thead {
 	background-color: #25D1D8;
 	color: #FFF;
+	
+}
+
+.tbody {
+	background-color: #FFF;
+}
+
+.tfoot {
+	background-color: #1CE57B;
+	color: #39125D;
+}
+
+th {
+	font-family: franklin gothic, verdana;
 }
 
 /*presentationsrutor*/
-#now {
+.pressrutor {
 	border: 2px solid #CA26D6;
 	border-radius: 8px;
 	margin-top: 10px;
-	padding: 5px;
-	
-}
-
-#past {
-	border: 2px solid #CA26D6;
-	border-radius: 8px;
-	margin-top: 10px;
-	padding: 5px;
-	
-}
-
-#future {
-	border: 2px solid #CA26D6;
-	border-radius: 8px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	padding: 5px;
 	
 }
@@ -222,28 +270,6 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 
-/* Typografi*/
-/*header*/
-#header h1 {
-	font-family: chiller, tahoma, verdana;
-	color: #CA26D6;
-	margin-left: 20px;
-}
-
-#header p {
-	font-family: helvetica, arial;
-	color: #39125D;
-	margin-left: 20px;
-}
-/*blogginlägg*/
-.text h3{
-	margin-left: 70px;
-}
-
-.text p {
-	margin-top: 50px;
-}
-
 /*lösa*/
 p { 
 	font-family: helvetica;
@@ -254,21 +280,9 @@ h2 { color: #6AE5AF;
 
 	}
 	
-/*content*/
-#content li {
-	font-family: georgia;
-}
-
-#content dt {
-	font-family: georgia;
-}
-	
-#content h3 {
+h4 {
 	font-family: verdana;
-	color: #1DB0EF;
-}
-
-#content h4 {
-	font-family: verdana;
+	font-size: 14px;
 	color: #CA26D6;
 }
+
