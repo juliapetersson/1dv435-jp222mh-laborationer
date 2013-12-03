@@ -91,7 +91,7 @@ body {background-image: url("pics/leomo.jpg");
 }
 /*sprites*/
 #meny  a {
-	width: 70px;
+	width: 150px;
 	height: 30px;
 	display: block;
 	background-image: url("pics/sprites.png");
@@ -105,28 +105,28 @@ body {background-image: url("pics/leomo.jpg");
 }
 #start-icon:hover{
 	background-position: 0px -60px;
-	text-indent: 0px;
+	
 }
 #about-icon {
 	background-position: 0px -130px;
 }
 #about-icon:hover{
-	background-position: 0px -195px;
-	text-indent: 0px;
+	background-position: 0px -197px;
+	
 }
 #labb-icon {
 	background-position: 0px -270px;
 }
 #labb-icon:hover{
 	background-position: 0px -345px;
-	text-indent: 0px;
+	
 }
 #kontakt-icon {
 	background-position: 0px -420px;
 }
 #kontakt-icon:hover{
 	background-position: 0px -493px;
-	text-indent: 0px;
+	
 }
 /*slut på sprites*/
 
