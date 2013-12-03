@@ -1,0 +1,156 @@
+
+/* header*/
+#header {
+	display: none;
+	
+}
+
+/* Navigation*/
+#navigation {
+	display: none;
+}
+
+/* Innehåll*/
+#content {
+	background-color: #FFF;
+	padding: 5px;
+	max-width: 600px;
+	float: left;
+	margin-left: 20px;
+}
+
+#content a:after {
+	content: " (" attr(href) ")";
+}
+
+#content li {
+	font-family: georgia;
+}
+
+#content dt {
+	font-family: georgia;
+}
+	
+#content h3 {
+	font-family: verdana;
+	color: #000;
+}
+
+
+#container {
+	background-color: #FFF;
+	overflow: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	border-radius: 10px;
+	
+}
+/*blogginläggrutor*/
+.text {
+	border-color: #000;
+	margin-top: 10px;
+	padding: 5px;
+	
+}
+
+
+.text p {
+	margin-left: 2px;
+	
+}
+
+.text h3{
+	margin-left: 70px;
+}
+
+.text p {
+	margin-top: 50px;
+}
+
+.left {
+	float: left;
+	
+}
+
+.right {
+	border-color: #000;
+	width: 300px;
+	height: 169px;
+	float: right;
+}
+
+/*tabell*/
+
+td {
+	border-width: 1px;
+	border-color: #000;
+	border-style: dotted;
+	
+}
+
+table {
+	border: 2px solid;
+	border-color: #000;
+	border-style: outset;
+	border-radius: 8px;
+	width: 400px;
+	padding: 3px;
+}
+
+.thead {
+	background-color: #FFF;
+	color: #000;
+	
+}
+
+.tbody {
+	background-color: #FFF;
+}
+
+.tfoot {
+	background-color: #FFF;
+	color: #000;
+}
+
+th {
+	font-family: franklin gothic, verdana;
+}
+
+/*presentationsrutor*/
+.pressrutor {
+	border-color: #000;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	
+}
+
+/* högersida*/
+#sidebar {
+	display: none;
+	
+}
+
+
+/* lägnstned*/
+#footer {
+	display: none;
+
+}
+
+/*lösa*/
+p { 
+	font-family: helvetica;
+	color: #000;
+}
+	
+h2 { color: #000;
+
+	}
+	
+h4 {
+	font-family: verdana;
+	font-size: 14px;
+	color: #000;
+}
+
