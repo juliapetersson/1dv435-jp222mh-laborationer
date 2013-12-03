@@ -26,6 +26,7 @@ url("pics/joker.png")
 url("pics/knapp2.png")
 url("pics/knapp3.png")
 url("pics/eye.png")
+url("pics/sprites.png")
 */
 
 
@@ -66,6 +67,7 @@ body {background-image: url("pics/leomo.jpg");
 	float: left;
 	
 }
+
 #navigation ul {
 	display: block;
 	border: 5px solid, #FFF;
@@ -74,6 +76,7 @@ body {background-image: url("pics/leomo.jpg");
 }
 
 #navigation li {
+	
 	background-color: #92D5EF;
 	list-style-type: none;
 	padding: 15px;
@@ -81,22 +84,54 @@ body {background-image: url("pics/leomo.jpg");
 	
 }
 
+#navigation li a.active {
+	border: 2px dotted #CA26D6;
+	padding: 15px;
+}
+
+
 #navigation li a {
 	background-color: #92D5EF;
 	padding: 15px;
 	
 }
-
-#navigation li a:hover {
-	background-image: url("pics/knapp2.png");
-	padding: 15px;
-	
+/*sprites*/
+#meny  a {
+	width: 35px;
+	height: 30px;
+	display: block;
+	background-image: url("pics/sprites.png");
+	background-repeat: no-repeat;
+	margin: 10px;
+	text-indent: -1000000000px;
 }
 
-#navigation li a.active {
-	background-image: url("pics/knapp3.png");
-	padding: 15px;
+#start-icon {
+	background-position: 0px 0px;
 }
+#start-icon:hover{
+	background-position: 0px -60px;
+}
+#about-icon {
+	background-position: 0px -130px;
+}
+#about-icon:hover{
+	background-position: 0px -195px;
+}
+#labb-icon {
+	background-position: 0px -270px;
+}
+#labb-icon:hover{
+	background-position: 0px -345px;
+}
+#kontakt-icon {
+	background-position: 0px -420px;
+}
+#kontakt-icon:hover{
+	background-position: 0px -493px;
+}
+/*slut på sprites*/
+
 
 #li {
 	cursor: pointer;
