@@ -1,5 +1,5 @@
 /*
-Färger:
+Fï¿½rger:
 #25D1D8	head
 #92D5EF	meny
 #FFF	vitt
@@ -97,7 +97,7 @@ body {background-image: url("pics/leomo.jpg");
 	background-image: url("pics/sprites.png");
 	background-repeat: no-repeat;
 	margin: 10px;
-	text-indent: -1000000000px;
+	text-indent: -1000px;
 }
 
 #start-icon {
@@ -128,14 +128,14 @@ body {background-image: url("pics/leomo.jpg");
 	background-position: 0px -493px;
 	
 }
-/*slut på sprites*/
+/*slut pï¿½ sprites*/
 
 
 #li {
 	cursor: pointer;
 }
 
-/* Innehåll*/
+/* Innehï¿½ll*/
 #content {
 	background-color: #FFF;
 	padding: 5px;
@@ -166,7 +166,7 @@ body {background-image: url("pics/leomo.jpg");
 	border-radius: 10px;
 	
 }
-/*blogginläggrutor*/
+/*blogginlï¿½ggrutor*/
 .text {
 	background-image: url("pics/eye.png");
 	background-repeat: no-repeat;
@@ -251,7 +251,7 @@ th {
 	
 }
 
-/* högersida*/
+/* hï¿½gersida*/
 #sidebar {
 	border: 2px solid #CA26D6;
 	width: 230px;
@@ -269,7 +269,7 @@ th {
 	
 }
 
-/* lägnstned*/
+/* lï¿½gnstned*/
 #footer {
 	background-color: #1CE57B;
 	width: 960px;
@@ -303,7 +303,7 @@ th {
 }
 
 
-/*lösa*/
+/*lï¿½sa*/
 p { 
 	font-family: helvetica;
 	color: #39125D;
