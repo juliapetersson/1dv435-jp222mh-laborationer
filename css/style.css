@@ -166,7 +166,7 @@ body {background-image: url("pics/leomo.jpg");
 	border-radius: 10px;
 	
 }
-/*blogginl�ggrutor*/
+/*blogginläggrutor*/
 .text {
 	background-image: url("pics/eye.png");
 	background-repeat: no-repeat;
@@ -221,7 +221,9 @@ table {
 	width: 400px;
 	padding: 3px;
 }
-
+.labbtable {
+	display: none;
+}
 .thead {
 	background-color: #25D1D8;
 	color: #FFF;
