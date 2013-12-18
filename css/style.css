@@ -256,6 +256,11 @@ th {
 	padding: 5px;
 	
 }
+/*valuta*/
+#theForm {
+    
+    
+}
 
 /* h�gersida*/
 #sidebar {
@@ -275,7 +280,7 @@ th {
 	
 }
 
-/* l�gnstned*/
+/*nederst*/
 #footer {
 	background-color: #1CE57B;
 	width: 960px;
