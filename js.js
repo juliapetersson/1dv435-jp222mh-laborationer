@@ -3,7 +3,7 @@
 //}
 
 var div = document.querySelector("#resultat");
-div.style.color= "#000000";
+
 var a = div.querySelector("a");
 //var table = document.getElementById("hidden");
 var table = document.getElementById("hidden"); 
