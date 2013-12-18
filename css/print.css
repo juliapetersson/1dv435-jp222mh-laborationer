@@ -10,7 +10,7 @@
 	display: none;
 }
 
-/* Innehåll*/
+/* Innehï¿½ll*/
 #content {
 	background-color: #FFF;
 	padding: 5px;
@@ -45,7 +45,7 @@
 	border-radius: 10px;
 	
 }
-/*blogginläggrutor*/
+/*blogginlï¿½ggrutor*/
 .text {
 	border-color: #000;
 	margin-top: 10px;
@@ -125,20 +125,20 @@ th {
 	
 }
 
-/* högersida*/
+/* hï¿½gersida*/
 #sidebar {
 	display: none;
 	
 }
 
 
-/* lägnstned*/
+/* lï¿½gnstned*/
 #footer {
 	display: none;
 
 }
 
-/*lösa*/
+/*lï¿½sa*/
 p { 
 	font-family: helvetica;
 	color: #000;
