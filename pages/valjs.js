@@ -19,14 +19,16 @@ var dollar = (" dollar.");
 
 if(isNaN(input.value)){
     a.onclick = function () {
-        p.innerHTML = input.value +svenska+" "+(input.value * 9.04) +euro+" "+(input.value * 6.57) +dollar;
+       // p.innerHTML = input.value +svenska+" "+(input.value * 9.04) +euro+" "+(input.value * 6.57) +dollar;
 	//p.innerHTML = allt;
+	p.innerHTML = ("Du måste skriva någon siffra");
 	//p.innerHTML = ("Du har glömt att skriva in några siffror");
 	console.log(input.value);
     };
 }
 else{
     a.onclick = function () {
-	p.innerHTML = ("Du har skrivit in något");
+	//p.innerHTML = ("Du har skrivit in något");
+	p.innerHTML = input.value +svenska+" "+(input.value * 9.04) +euro+" "+(input.value * 6.57) +dollar;
     };
 }
